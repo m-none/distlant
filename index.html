@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>distlant</title>
+    <title>mone</title>
     <style>
+        /* オリジナルフォントを定義 */
+        @font-face {
+            font-family: 'distlant'; /* フォント名 */
+            src: url('./fonts/distlant.woff2') format('woff2'),
+                 url('./fonts/distlant.woff') format('woff'); /* フォントファイルのURL */
+        }
+
+        /* ページ全体にフォントを適用 */
         body {
             background-color: white; /* 背景を白に設定 */
             color: black; /* 文字色を黒に設定 */
-            font-family: Arial, sans-serif; /* フォントを指定 */
+            font-family: 'distlant', Arial, sans-serif; /* オリジナルフォントを優先して適用 */
             margin: 20px; /* 余白を設定 */
+        }
+
+        h1 {
+            font-size: 48px; /* 見出しを大きく設定 */
         }
     </style>
 </head>
 <body>
-    <h1>distlant</h1>
-    <p>helloworldooon</p>
+    <h1>distrant</h1>
+    <p>sis ti nolar</p>
 </body>
 </html>

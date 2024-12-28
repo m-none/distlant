@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'distlant';
+    src: url('./fonts/distlant.woff2') format('woff2'),
+         url('./fonts/distlant.woff') format('woff');
+}
+
+body {
+    font-family: 'distlant', sans-serif;
+}
