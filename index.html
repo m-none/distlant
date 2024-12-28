@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mone</title>
     <style>
-        /* オリジナルフォントを定義 */
+        /* distlant-font */
         @font-face {
             font-family: 'distlant'; /* フォント名 */
             src: url('./fonts/distlant.woff2') format('woff2'),
                  url('./fonts/distlant.woff') format('woff'); /* フォントファイルのURL */
         }
 
-        /* ページ全体にフォントを適用 */
+        .no-copy{
+            user-select: none;
+        }
+        /* font */
         body {
-            background-color: white; /* 背景を白に設定 */
-            color: black; /* 文字色を黒に設定 */
-            font-family: 'distlant', Arial, sans-serif; /* オリジナルフォントを優先して適用 */
-            margin: 20px; /* 余白を設定 */
+            background-color: white; /* background */
+            color: black; /* letter-color */
+            font-family: 'distlant', Arial, sans-serif; /* font-used */
+            margin: 20px; /* space-size */
         }
 
         h1 {
-            font-size: 48px; /* 見出しを大きく設定 */
+            font-size: 48px; /* subtitle-size */
         }
     </style>
 </head>
